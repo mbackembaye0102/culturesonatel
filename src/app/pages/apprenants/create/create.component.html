@@ -1,0 +1,64 @@
+<div class="h1">
+  <h1>Ajout Apprenants</h1>
+</div>
+
+
+
+<mat-vertical-stepper  #stepper>
+  <mat-step >
+      <ng-template matStepLabel>Informations de bases</ng-template>
+   
+          <div class="col-md-6 form-group">
+            <label for="exampleFormControlInput1">Prenom</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mettez votre prenom">
+          </div>
+          <div class="col-md-6 form-group">
+            <label for="exampleFormControlInput1">Nom</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mettez votre nom">
+          </div>
+          <div class="col-md-6 form-group">
+            <label for="exampleFormControlInput1">Télephone</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Saisissez votre numéro de téléphone">
+          </div>
+       
+      <div>
+        <button class="btn" mat-button matStepperNext>Suivant</button>
+      </div>
+  </mat-step>
+  <mat-step >
+      <ng-template matStepLabel>Informations secondaires</ng-template>
+      <div class="col-md-6 form-group">
+          <label for="exampleFormControlInput1">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@grow.com">
+        </div>
+        <div class="col-md-6 form-group">
+          <label for="exampleFormControlInput1">Photo</label>
+          <input type="file" class="form-control" id="exampleFormControlInput1" placeholder="Choisissez une photo">
+        </div>
+        <div class="col-md-6 form-group">
+          <label for="exampleFormControlInput1">Poste</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Saisissez votre poste">
+        </div>
+      <div>
+        <button  class="btne" mat-button matStepperPrevious>Précédent</button>
+        <button  class="btn" mat-button matStepperNext>Suivant</button>
+      </div>
+
+  </mat-step>
+  <mat-step>
+    <ng-template matStepLabel>Récapitulatifs</ng-template>
+    <p>Verifier vos données saisies avant validation</p>
+    <p>----------------------------------------------</p>
+    <strong>Prenom :</strong> <span></span> <br>
+    <strong>Nom :</strong> <span></span> <br>
+    <strong>Télephone :</strong> <span></span> <br>
+    <strong>Email :</strong> <span></span> <br>
+    <strong>Photo :</strong> <span></span> <br>
+    <strong>Poste :</strong> <span></span> <br>
+
+    <div>
+      <button  class="btne" mat-button matStepperPrevious>Précédent</button>
+      <button  class="btnvalider" mat-button >Valider</button>
+    </div>
+  </mat-step>
+</mat-vertical-stepper>

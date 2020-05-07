@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="form-background">
+<img src="../../assets/img/logogrow.png"  width="150" height="120" alt=""> <img src="../../assets/img/SA.png"  width="150" height="120" class="sa" alt="">
+ <form [formGroup]="utilisateur" (ngSubmit)="addsys(utilisateur.value)">
+  <input type="text" placeholder="username" formControlName="username">
+  <br>
+  <input type="text" placeholder="password" formControlName="password">
+  <br><br>
+  <input type="submit" value="Sign Up" [disabled]="!utilisateur.valid" >
+</form>
+</div>
+</div>
