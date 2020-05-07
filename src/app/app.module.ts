@@ -17,6 +17,7 @@ import { AddcritereComponent } from './pages/admin/addcritere/addcritere.compone
 import { AddadminComponent } from './pages/admin/addadmin/addadmin.component';
 import { EvaluationComponent } from './pages/evaluation/evaluation.component';
 import {MaterialModule} from './material/material/material.module';
+import { DetailComponent } from './pages/apprenants/detail/detail.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import {MaterialModule} from './material/material/material.module';
     AddcritereComponent,
     AddadminComponent,
     EvaluationComponent,
+    DetailComponent,
   ],
   imports: [
     BrowserModule,

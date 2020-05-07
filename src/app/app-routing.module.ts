@@ -8,6 +8,7 @@ import { AddsessionComponent } from './pages/admin/addsession/addsession.compone
 import { AddcritereComponent } from './pages/admin/addcritere/addcritere.component';
 import { AddadminComponent } from './pages/admin/addadmin/addadmin.component';
 import { EvaluationComponent } from './pages/evaluation/evaluation.component';
+import { DetailComponent } from './pages/apprenants/detail/detail.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,8 @@ const routes: Routes = [
   {path:"critere",component:AddcritereComponent},
   {path:"admin",component:AddadminComponent},
   {path:"evaluation",component:EvaluationComponent},
+  {path:"detailuser",component:DetailComponent},
+
 
 ];
 
