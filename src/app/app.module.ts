@@ -18,6 +18,8 @@ import { AddadminComponent } from './pages/admin/addadmin/addadmin.component';
 import { EvaluationComponent } from './pages/evaluation/evaluation.component';
 import {MaterialModule} from './material/material/material.module';
 import { DetailComponent } from './pages/apprenants/detail/detail.component';
+import { EditpasswordComponent } from './editpassword/editpassword.component';
+import { AddgroupComponent } from './pages/admin/addgroup/addgroup.component';
 
 
 @NgModule({
@@ -32,6 +34,8 @@ import { DetailComponent } from './pages/apprenants/detail/detail.component';
     AddadminComponent,
     EvaluationComponent,
     DetailComponent,
+    EditpasswordComponent,
+    AddgroupComponent,
   ],
   imports: [
     BrowserModule,

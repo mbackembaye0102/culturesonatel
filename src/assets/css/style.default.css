@@ -325,7 +325,7 @@ nav.navbar a.menu-btn {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  background: #FF4080;
+  background:  rgb(143, 143, 143);
   color: #fff;
   text-align: center;
   padding: 0 !important;
@@ -428,7 +428,7 @@ nav.navbar a.menu-btn:hover {
 }
 
 .side-navbar li a:focus, .side-navbar li a:hover, .side-navbar li a[aria-expanded="true"] {
-  background: #FF4080;
+  background:  rgb(143, 143, 143);
   color: black;
   text-decoration: none;
 }
@@ -471,7 +471,7 @@ nav.navbar a.menu-btn:hover {
 }
 
 .side-navbar li ul.collapse a {
-  border-left: 2px solid #FF4080;
+  border-left: 2px solid  rgb(143, 143, 143);
 }
 
 .side-navbar li ul.collapse a:hover {

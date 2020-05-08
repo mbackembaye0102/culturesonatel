@@ -9,6 +9,8 @@ import { AddcritereComponent } from './pages/admin/addcritere/addcritere.compone
 import { AddadminComponent } from './pages/admin/addadmin/addadmin.component';
 import { EvaluationComponent } from './pages/evaluation/evaluation.component';
 import { DetailComponent } from './pages/apprenants/detail/detail.component';
+import { EditpasswordComponent } from './editpassword/editpassword.component';
+import { AddgroupComponent } from './pages/admin/addgroup/addgroup.component';
 
 
 const routes: Routes = [
@@ -21,6 +23,9 @@ const routes: Routes = [
   {path:"admin",component:AddadminComponent},
   {path:"evaluation",component:EvaluationComponent},
   {path:"detailuser",component:DetailComponent},
+  {path:"editpassword",component:EditpasswordComponent},
+  {path:"groupe",component:AddgroupComponent}
+
 
 
 ];
